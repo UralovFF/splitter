@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splitter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+            <div class="logo"><img src="img/splitter-logo.svg" alt="logo"></div>
+            <div class="container">
+                <div class="calculator">
+                    <form class="calculator__form" action="">
+                        <label for="bill">Bill</label>
+                        <input id="bill" name="bill" type="number" placeholder="0">
+                    </form>
+                    <div class="tips">
+                        <p class="tips__title">Select Tip %</p>
+                        <div class="tips__btn__wrapper">
+                            <button class="tips__btn">5%</button>
+                            <button class="tips__btn">10%</button>
+                            <button class="tips__btn">15%</button>
+                            <button class="tips__btn">25%</button>
+                            <button class="tips__btn">50%</button>
+                            <form action="">
+                                <input name="select-tip" type="number" placeholder="Custom">
+                            </form>
+                        </div>
+                    </div>
+                    <form class="calculator__form" action="">
+                        <label for="num-of-people">Number of People</label>
+                        <input id="num-of-people" name="num-of-people" type="number" placeholder="0">
+                    </form>
+                </div>
+                <div class="result-window">
+                    <div class="result__info">
+                        <div class="result">
+                            <p>Tip Amount<br><span>/ person</span></p>
+                            <h2 class="price">$0.00</h2>
+                        </div>
+                        <div class="result">
+                            <p>Total<br><span>/ person</span></p>
+                            <h2 class="price">$0.00</h2>
+                        </div>
+                    </div>
+                    <button class="reset__btn">Reset</button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
